@@ -2,6 +2,13 @@
 
 A premium industry-level SaaS frontend application that helps users discover their technology career path and generates a complete 1-year roadmap showing exactly what they should learn, in what order, which projects to build, and which YouTube channels to follow.
 
+
+## live link
+
+https://tech-navigator-ai-beryl.vercel.app/
+
+
+
 ## 🎯 Features
 
 - **50+ Career Paths**: Browse from a comprehensive list of technology careers
@@ -81,32 +88,6 @@ A premium industry-level SaaS frontend application that helps users discover the
 - Node.js 16+
 - npm or yarn
 
-### Installation
-
-1. **Install Dependencies**
-
-   ```bash
-   npm install
-   ```
-
-2. **Start Development Server**
-
-   ```bash
-   npm run dev
-   ```
-
-   The app will open at `http://localhost:5173`
-
-3. **Build for Production**
-
-   ```bash
-   npm run build
-   ```
-
-4. **Preview Production Build**
-   ```bash
-   npm run preview
-   ```
 
 ## 📁 Project Structure
 
@@ -217,21 +198,7 @@ Key types defined in `src/types/index.ts`:
 - `YoutubeChannel` - Resource reference
 - `CareerProgress` - User progress tracking
 
-## 🌐 Deployment
 
-### Vercel (Recommended)
-
-```bash
-npm run build
-# Deploy the dist/ folder to Vercel
-```
-
-### GitHub Pages
-
-```bash
-npm run build
-# Push dist/ folder to gh-pages branch
-```
 
 ### Other Platforms
 
