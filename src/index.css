@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply scroll-smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-dark-900 text-gray-100;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(17, 24, 39);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.5);
+}
+
+/* Glassmorphism Effect */
+.glass {
+  @apply bg-white bg-opacity-5 backdrop-blur-md border border-white border-opacity-10;
+}
+
+.glass-hover {
+  @apply transition-all duration-300 hover:bg-opacity-10 hover:border-white hover:border-opacity-20;
+}
+
+/* Smooth Transitions */
+a,
+button {
+  @apply transition-all duration-300;
+}
+
+/* Text Gradient */
+.gradient-text {
+  @apply bg-gradient-to-r from-primary-400 to-accent-500 bg-clip-text text-transparent;
+}
+
+/* Glow Effect */
+.glow-effect {
+  @apply shadow-glow;
+}
+
+.glow-effect:hover {
+  @apply shadow-glow-lg;
+}
