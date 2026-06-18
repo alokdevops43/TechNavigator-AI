@@ -11,7 +11,7 @@ https://tech-navigator-ai-beryl.vercel.app/
 
 ## 🎯 Features
 
-- **50+ Career Paths**: Browse from a comprehensive list of technology careers
+- **10 Career Paths**: Browse from a comprehensive list of technology careers
 - **Personalized Roadmaps**: Get a customized 12-month learning plan for your chosen career
 - **Project-Based Learning**: Real projects recommended at every stage of your journey
 - **Curated Resources**: Handpicked YouTube channels and learning resources for each module
