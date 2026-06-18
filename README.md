@@ -31,7 +31,9 @@ https://tech-navigator-ai-beryl.vercel.app/
 - **Lucide React** - Beautiful icons
 - **Vite** - Fast build tool
 
-## 📋 Supported Careers
+
+
+
 
 ### Software Development
 
