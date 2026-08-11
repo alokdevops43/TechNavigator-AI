@@ -2,7 +2,6 @@
 
 A premium industry-level SaaS frontend application that helps users discover their technology career path and generates a complete 1-year roadmap showing exactly what they should learn, in what order, which projects to build, and which YouTube channels to follow.
 
-
 ## live link
 
 https://tech-navigator-ai-beryl.vercel.app/
